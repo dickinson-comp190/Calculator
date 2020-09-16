@@ -122,7 +122,7 @@ public class Calculator {
 	 * @return the perimeter of a circle with radius r.
 	 */
 	public double cirPer(double r) {
-		return Math.PI * r * r;
+		return Math.PI * 2 * r;
 	}
 
 	/**
