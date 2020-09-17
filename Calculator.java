@@ -110,8 +110,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the area of a circle with radius r.
 	 */
-	public double circleArea(double r) {
-
+	public double areaOfCircle(double r) {
 		return Math.PI * r * r;
 	}
 
@@ -144,7 +143,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the volume of a sphere with radius r.
 	 */
-	public double sphereVol(double r) {
+	public double sphVol(double r) {
 		return 4/3 * Math.PI * r * r * r;
 	}
 }
