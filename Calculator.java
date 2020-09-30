@@ -76,7 +76,7 @@ public class Calculator {
 	}
 
 	/**
-	 * The length of a rectangle with the given side lengths.
+	 * The area of a rectangle with the given side lengths.
 	 * 
 	 * @param x
 	 *            the length of one side.
@@ -85,7 +85,7 @@ public class Calculator {
 	 * @return the area of a rectangle with sides x and y.
 	 */
 	public double rectAr(double x, double y) {
-		return 2 * x + 2 * y;
+		return x * y;
 	}
 
 	/**
