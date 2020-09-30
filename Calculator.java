@@ -131,7 +131,7 @@ public class Calculator {
 	 * @return the volume of a cube with sides of length s.
 	 */
 	public double cubeVol(double s) {
-		return 4 * s;
+		return s * s * s;
 	}
 	
 	/**
