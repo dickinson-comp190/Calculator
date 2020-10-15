@@ -33,7 +33,7 @@ public class Calculator {
 	 * @return x - y
 	 */
 	public double sub(double x, double y) {
-		return y - x;
+		return x - y;
 	}
 
 	/**
