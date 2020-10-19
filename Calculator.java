@@ -142,6 +142,6 @@ public class Calculator {
 	 * @return the volume of a sphere with radius r.
 	 */
 	public double sphVol(double r) {
-		return 2 * Math.PI * r;
+		return 4/3 * Math.PI * r * r * r;
 	}
 }
