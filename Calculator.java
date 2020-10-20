@@ -33,7 +33,7 @@ public class Calculator {
 	 * @return x - y
 	 */
 	public double sub(double x, double y) {
-		return x-y ;
+		return y - x;
 	}
 
 	/**
@@ -46,7 +46,7 @@ public class Calculator {
 	 * @return x * y
 	 */
 	public double mult(double x, double y) {
-		return x * y;
+		return x*y;
 	}
 
 	/**
@@ -85,7 +85,7 @@ public class Calculator {
 	 * @return the area of a rectangle with sides x and y.
 	 */
 	public double rectAr(double x, double y) {
-		return x*y;
+		return 2 * x + 2 * y;
 	}
 
 	/**
@@ -109,7 +109,7 @@ public class Calculator {
 	 * @return the area of a circle with radius r.
 	 */
 	public double cirAr(double r) {
-		return Math.PI * r * r;
+		return Math.PI * r;
 	}
 
 	/**
@@ -141,7 +141,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the volume of a sphere with radius r.
 	 */
-	public double sphVol(double r) {
+	public double sphereVolumel(double r) {
 		return 2 * Math.PI * r;
 	}
 }
