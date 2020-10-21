@@ -59,7 +59,7 @@ public class Calculator {
 	 * @return x/y
 	 */
 	public double div(double x, double y) {
-		return y / x;
+		return x/y;
 	}
 
 	/**
