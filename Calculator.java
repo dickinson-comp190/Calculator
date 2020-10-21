@@ -72,7 +72,7 @@ public class Calculator {
 	 *            the length of the other side.
 	 * @return the length of the hypotenuse of a right triangle with sides x and y.
 	 */
-	public double hypot(double x, double y) {
+	public double hypotenuse(double x, double y) {
 
           	return Math.sqrt(Math.pow(x,2) + Math.pow(y, 2));
 	}
