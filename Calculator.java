@@ -112,8 +112,7 @@ public class Calculator {
 		return Math.PI * r * r;
 	}
 
-	/**
-	 * The perimeter of a circle with given radius.
+	/**	 * The perimeter of a circle with given radius.
 	 * 
 	 * @param r
 	 *            the radius
