@@ -110,7 +110,10 @@ public class Calculator {
 	 *            the radius
 	 * @return the area of a circle with radius r.
 	 */
+<<<<<<< HEAD
 	public double circleArea(double r) {
+=======
+>>>>>>> main
 		return Math.PI * r * r;
 	}
 
