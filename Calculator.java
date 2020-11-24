@@ -108,7 +108,7 @@ public class Calculator {
 	 * 
 	 * @param r
 	 *            the radius
-	 * @return the area of a circle with radius r.
+		 * @return the area of a circle with radius r.
 	 */
 	public double cirAr(double r) {
 		return Math.PI * r * r;
@@ -122,7 +122,7 @@ public class Calculator {
 	 * @return the perimeter of a circle with radius r.
 	 */
 	public double cirPer(double r) {
-		return Math.PI * r * r;
+		return Math.PI * r * 2;
 	}
 
 	/**
