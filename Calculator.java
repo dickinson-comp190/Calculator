@@ -100,7 +100,7 @@ public class Calculator {
 	 * @return the perimeter of a rectangle with sides x and y.
 	 */
 	public double rectPer(double x, double y) {
-		return 2 * x * y;
+		return 2 * (x + y);
 	}
 
 	/**
