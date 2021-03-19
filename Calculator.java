@@ -110,7 +110,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the area of a circle with radius r.
 	 */
-	public double cirAr(double r) {
+	public double circleArea(double r) {
 		return Math.PI * r * r;
 	}
 
@@ -132,7 +132,7 @@ public class Calculator {
 	 *            the side length
 	 * @return the volume of a cube with sides of length s.
 	 */
-	public double cubeVolume(double s) {
+	public double cubeVol(double s) {
 		return 4 * s;
 	}
 	
